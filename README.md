@@ -5,6 +5,25 @@
 
 https://github.com/user-attachments/assets/681103f5-8c2c-4833-8585-158ac760a4f2
 
+## Tech Stack
+
+### Frontend
+- HTML
+- CSS
+- React.js
+
+### Backend
+- Spring Boot
+- Java
+
+### Messaging Queue
+- RabbitMQ
+
+### Database
+- MongoDB
+
+### API Integration
+- APIs for fetching the latest flight information
 
 
 
