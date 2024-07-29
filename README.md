@@ -1,4 +1,12 @@
+
 # SkyTracker
+
+
+
+https://github.com/user-attachments/assets/681103f5-8c2c-4833-8585-158ac760a4f2
+
+
+
 
 
 
@@ -75,9 +83,30 @@ Before you can run a Spring project, ensure you have the following prerequisites
        ```bash
        sudo systemctl start rabbitmq-server
        ```
+- **Creating a .env file:** To configure the application, create a `.env` file at the following path:
+   ```bash
+   skyTracker/Backend/flight/src/main/resources
+   
+- **.env file**
+  ```bash
+   MONGO_DATABASE=
+   MONGO_USER=
+   MONGO_PASSWORD=
+   MONGO_CLUSTER=
+   FLIGHT_DETAILS_AUTHORIZATION=
+   AUTHORIZATION_TOKEN_AIRPORT=Bearer 
+   AUTHORIZATION_TOKEN_DELAY=Bearer 
+   AUTHORIZATION_TOKEN_FLIGHT=Bearer
+Note: Add Token after 'Bearer' Keyword.
+<p>Get AUTHORIZATION_TOKEN_AIRPORT from : <a href="https://bit.ly/4bYoG3W">https://bit.ly/4bYoG3W</a></p>
+<p>Get AUTHORIZATION_TOKEN_DELAY from : <a href="https://bit.ly/3Wj4iom">https://bit.ly/3Wj4iom</a></p>
+<p>Get AUTHORIZATION_TOKEN_FLIGHT from : <a href="https://bit.ly/46ol3mG">https://bit.ly/46ol3mG</a></p>
 
 - **Management Interface:** RabbitMQ provides a web-based management interface. Enable it by running:
   ```bash
   cd C:\Program Files\RabbitMQ Server\rabbitmq_server-3.13.6\sbin
   rabbitmq-plugins enable rabbitmq_management
+  rabbitmq-server
+
+
 
